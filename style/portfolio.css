@@ -1,0 +1,49 @@
+/* shared design */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-pri {
+    color: #FD6E0A;
+}
+
+.btn-pri {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+/* nav design */
+nav>h2>span {
+    color: #FD6E0A;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>h2 {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}

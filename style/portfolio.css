@@ -39,8 +39,8 @@ nav>ul {
     display: flex;
     align-items: center;
 }
-
-nav li {
+nav li
+ {
     list-style: none;
     margin-right: 50px;
 }
@@ -56,12 +56,11 @@ nav a {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-    background-size: auto, contain;
-
+    /* background-size: auto, contain; */
 }
 
 .banner {
-    padding: 0px 30px 0px 100px;
+    /* padding: 0px 30px 0px 100px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +93,7 @@ nav a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    width: 500px;
+    
 }
 
 /* about me design */
@@ -227,4 +226,57 @@ footer{
     color: #757575;
     border: none;
     width: 100%;
+}
+@media screen and (max-width:576px) {
+    footer, .skills-cont, .resu-cont , .about-extra-cont , .banner{
+        flex-direction: column;
+    }
+    footer , .about-extra-cont{
+        padding: 20px;
+        align-items: center;
+    }
+    .foot-col{
+        width: 100%;
+    }
+    .resu-cont , .wid , .about-me {
+        margin: 15px;
+    }
+    .about-extra-cont{
+        gap: 20px;
+    }
+    .about-me-info{
+        padding: 10px;
+        
+    }
+    main h3{
+        margin: 5px;
+    }
+    .header{
+        background-image: none;
+        padding: 0px 5px;
+        margin-bottom: 50px;
+    }
+    .banner{
+          padding: 0px;
+    }
+    .banner .profile-pic {
+        width: auto;
+        padding-right: 0px;
+    }
+    ul{
+        padding: 0px;
+        gap: 5px;
+    }
+    nav li
+ {
+    margin-right: 5px;
+   
+}
+nav{
+    flex-wrap: wrap;
+   margin: 0px;
+}
+.ban-title{
+    margin-bottom: 25px;
+}
 }

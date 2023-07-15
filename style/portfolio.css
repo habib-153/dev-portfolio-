@@ -66,9 +66,11 @@ nav a {
     justify-content: space-between;
     margin-top: 0px;
 }
-
+.ban-content{
+    margin-left: 60px;
+}
 .banner .profile-pic {
-    width: 450px;
+    width:50%;
     padding-right: 60px;
 }
 
@@ -93,6 +95,7 @@ nav a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    
 
 }
 
@@ -155,7 +158,7 @@ nav a {
 
 .wid {
     border-radius: 10px;
-    /* background: #FFF8F3; */
+    background: #FFF8F3;
     margin: 130px 140px;
 }
 
@@ -323,9 +326,54 @@ textarea {
 
     .banner button {
         margin-bottom: 5px;
+        padding: 15px;
     }
     .C-form input,
     textarea{
         width: 80%;
     }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    footer{
+        padding: 15px;
+        gap: 50px;
+        margin: 70px 0px;
+    }
+    .C-form input,
+textarea{
+    width: 80%;
+    padding: 20px;
+}
+.resu-cont , .wid  {
+    margin: 10px 10px 50px;
+}
+.skills-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.skills{
+    box-shadow: 10px 10px 10px #f4e6dd;
+}
+.about-me{
+         margin: 50px 10px;
+}
+.about-extra-cont{
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 40px;
+}
+nav {
+    /* flex-wrap: wrap; */
+    margin: 10px;
+}
+.banner button {
+    margin-bottom: 5px;
+    padding: 15px;
+}
+.banner .profile-pic {
+    width: 50%;
+    padding-right: 0px;
+    /* padding-top: 200px; */
+}
+
 }

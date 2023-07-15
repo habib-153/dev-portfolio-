@@ -298,8 +298,8 @@ textarea {
     }
 
     .banner .profile-pic {
-        width: auto;
-        padding-right: 0px;
+        width: 100%;
+        padding: 0px;
     }
 
     ul {
